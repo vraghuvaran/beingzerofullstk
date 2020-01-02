@@ -7,9 +7,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
+  x="Random Number";
+
   constructor() { }
 
   ngOnInit() {
+
+    this.x=this.x+" new";
+  }
+  fnclick(){
+
+    this.x=this.x+"  new"
   }
 
 }
